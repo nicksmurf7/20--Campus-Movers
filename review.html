@@ -48,7 +48,7 @@
                 count = nextCount()
                 var content = `<center> 
                             <picture>
-                                <source media="(min-width:700px)" srcset="`+images[count]+ `">
+                                <source media="(min-height:500px)" srcset="`+images[count]+ `">
                                 <img src="`+ images[count] +`" alt="image" height="200" >
                             </picture>
                             </center>`
@@ -60,7 +60,7 @@
                 count = previousCount()
                 var content = `<center> 
                             <picture>
-                                <source media="(min-width:700px)" srcset="`+images[count]+ `">
+                                <source media="(max-height:500px)" srcset="`+images[count]+ `">
                                 <img src="`+ images[count] +`" alt="image" height="200" >
                             </picture>
                             </center>`
