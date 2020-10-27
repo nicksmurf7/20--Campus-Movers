@@ -190,9 +190,6 @@ button{
 	border: solid white 2px;
 }
 
-.centertextB :hover {
-	color: #e0ae77;
-}
 
 .whitebar {
 	padding-top: 20px;
@@ -219,9 +216,6 @@ button{
 	border: 2px solid #3a444f;
 }
 
-.centertextW :hover {
-	color: #e0ae77;
-}
 
 @media screen and (max-width:700px) {
 	.centertextW {
